@@ -26,12 +26,12 @@ int stimDuration = 3600000;  // flicker stim duration. 3600000 ms = 1 hr
 int halfPeriod = 12500;  // 12500 microseconds for 40 Hz w/ 50% duty cycle
 
 
-
 void setup() {
   // initialize pins as an outputs
   pinMode(LEDpin, OUTPUT);
   pinMode(AudioPin, OUTPUT);
 }
+
 
 void loop() {
   unsigned long totalTime = millis();
