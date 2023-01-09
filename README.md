@@ -1,1 +1,1 @@
-# FlickerDevices
+# BrainWAVE
